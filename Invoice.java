@@ -71,10 +71,11 @@ public class Invoice {
 		System.out.println("Price : "+this.price);
 		System.out.println("Total Invoice Amount : "+invoiceAmount());
 	}
+}
+class InvoiceTest{
 	public static void main(String[] args) {
 		Invoice i1 = new Invoice();
 		i1.setData();
 		i1.displayData();
 	}
-	
 }
